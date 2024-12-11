@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(218, 214, 214);
+}
+
+.cus {
+    display: inline-block; 
+    background-color: #bf7855; 
+    color: black; 
+    padding: 20px 30px;
+    width: 370px;
+    height: 20px;
+    text-decoration: none; 
+    border: none;
+    border-radius: 15px;
+    font-size: 30px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    font-family: sans-serif;
+    position: relative; 
+    top: -130px;
+  }
+  
+  .cus:hover {
+    background-color: #722904;
+  }
+
+    .pi{
+        position: relative; 
+    top: -130px;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        height: 100px;
+        position: relative;
+        top: 10px; 
+      }
+      
+      
+
+.esoes{
+    position: relative; 
+    top: -130px;
+}
+

@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    z-index: 1;
+    background-blend-mode: overlay; 
+   
+}
+
+.semi{
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.bon {
+    font-family: Arial;
+    font-size: 24px; 
+    padding: 20px 40px; 
+    color: white;
+    background-color: #000000; 
+    border: none;
+    border-radius: 30px; 
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   margin-left: 30px;
+   z-index: 10s;
+
+}
+
+
+.bon:hover {
+    background-color: #ff9800; 
+}

@@ -1,0 +1,295 @@
+body {
+    font-family: Lucida Bright;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background: #adadad;
+    padding: 10px 0;
+    text-align: center;
+     position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+}
+
+h1{
+    font-family: Lucida Bright;
+    padding: 200px;
+}
+
+
+.pi {
+    font-size: 35px; 
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+
+.ai {
+    padding-top: 20px;
+    margin-top: -30px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.e {
+    margin-left: 190px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 320px;
+}
+
+.i {
+    margin-left: 380px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 510px;
+}
+
+.o {
+    margin-left: 570px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 700px;
+}
+
+.u {
+    margin-left: 760px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 890px;
+}
+
+.todo{
+    margin-left: 75px; 
+    list-style-type: none;
+}
+
+
+li {
+display: block;
+width: 180px;         
+height: 40px;
+background:black;
+border-radius: 20px;
+font-size: 25px; 
+text-align: center;
+font-family: American Typewriter;
+transition: background-color 0.3s ease;
+
+
+}
+
+li:hover{
+    background-color: rgb(66, 1, 1);
+}
+
+
+a {
+    text-decoration: none;
+    color: white; 
+    transition: none;
+}
+
+.esoes {
+    width: 140px;
+    margin-right: 20px; 
+    transform: scale(1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.esoes:hover{
+ 
+    transform: scale(1.5);
+   
+}
+
+.CONTIENE{
+    display: flex;
+    margin-left: 320px;
+    padding-top: 20px;
+    margin-top: -50px;
+   
+}
+
+.z{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 35px;
+   
+    transition: background-color 0.3s ease;
+}
+
+.z:hover {
+    background-color: #504d4d; /* Color de fondo al pasar el cursor */
+  }
+
+.y{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 60px;
+    transition: background-color 0.3s ease;
+}
+
+.y:hover {
+    background-color: #504d4d; /* Color de fondo al pasar el cursor */
+  }
+
+.x{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 145px;
+    transition: background-color 0.3s ease;
+}
+
+.x:hover {
+    background-color: #504d4d; /* Color de fondo al pasar el cursor */
+  }
+
+.w{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 65px;
+    transition: background-color 0.3s ease;
+}
+
+.w:hover {
+    background-color: #504d4d; /* Color de fondo al pasar el cursor */
+  }
+
+.l{
+    text-align: center;
+    margin-top: -220px;
+   font-size: 30px;
+   border: 4px solid green;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.s{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 35px;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.s:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+.ñ{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 60px;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.ñ:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+.t{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 145px;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.t:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+.p{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 65px;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.p:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+.tes{
+    text-align: center;
+    margin-top: 80px;
+   font-size: 30px;
+   border: 4px solid green;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 35px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease; /* Transición suave */
+  }
+  
+  .b:hover{
+    transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+  }
+
+.c{
+    border: 2px solid #000;
+     width: 250px;
+    height: 250px;
+    margin-left: 60px;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.c:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+.d{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 145px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.d:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+.f{
+    border: 2px solid #000;
+    width: 250px;
+    height: 250px;
+    margin-left: 65px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.f:hover{
+  transform: rotate(10deg); /* Gira la imagen al pasar el cursor */
+}
+
+ 
+.est{
+    text-align: center;
+    margin-top: 80px;
+   font-size: 30px;
+   border: 4px solid green;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+

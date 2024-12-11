@@ -1,0 +1,149 @@
+body {
+    font-family: Lucida Bright;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: rgb(239, 232, 155);
+
+
+}
+
+header {
+    background: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+     position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+}
+
+h1{
+    font-family: Lucida Bright;
+    padding: 200px;
+}
+
+
+.pi {
+    font-size: 35px; 
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+
+.ai {
+    padding-top: 20px;
+    margin-top: -30px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.e {
+    margin-left: 190px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 320px;
+}
+
+.i {
+    margin-left: 380px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 510px;
+}
+
+.o {
+    margin-left: 570px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 700px;
+}
+
+.u {
+    margin-left: 760px;
+    padding-top: 20px;
+    margin-top: -60px;
+    margin-left: 890px;
+}
+
+.todo{
+    margin-left: 75px; 
+    list-style-type: none;
+}
+
+
+li {
+display: block;
+width: 180px;         
+height: 40px;
+background:black;
+border-radius: 20px;
+font-size: 25px; 
+text-align: center;
+font-family: American Typewriter;
+transition: background-color 0.3s ease;
+
+
+}
+
+li:hover{
+    background-color: rgb(66, 1, 1);
+}
+
+
+a {
+    text-decoration: none;
+    color: white; 
+    transition: none;
+}
+
+.esoes {
+    width: 140px;
+    margin-right: 20px; 
+    transform: scale(1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.esoes:hover{
+ 
+    transform: scale(1.5);
+   
+}
+
+.CONTIENE{
+    display: flex;
+    margin-left: 320px;
+    padding-top: 20px;
+    margin-top: -50px;
+   
+}
+
+.aja{
+    position: absolute; 
+  top: 80%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 24px;
+  text-align: justify; 
+  text-align-last: left; 
+  margin-top: 40px;
+  color: rgb(7, 7, 7);
+  padding-top: 70px;
+  font-family: Lucida Bright;
+
+  }
+
+  .ee{
+    font-size: 28px; 
+  }
+
+.pepe{
+    margin-top: 240px;
+    margin-left: 10px;
+}
+
+.pepa{
+    margin-top: -1400px;
+    margin-left: 1050px;
+}
